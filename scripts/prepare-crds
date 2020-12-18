@@ -98,7 +98,7 @@ if [[ -z "$(yq r ${f}/charts/Chart.yaml 'annotations[catalog.cattle.io/auto-inst
 fi
 
 # Add annotations to ${f}/charts-crd/Chart.yaml
-copyAnnotations=(catalog.cattle.io/release-name catalog.cattle.io/certified catalog.cattle.io/experimental catalog.cattle.io/namespace)
+copyAnnotations=(catalog.cattle.io/release-name catalog.cattle.io/certified catalog.cattle.io/experimental catalog.cattle.io/namespace catalog.cattle.io/os)
 for a in ${copyAnnotations[@]}; do
 	v=$(yq r ${f}/charts/Chart.yaml "annotations[${a}]")
 	if ! [[ -z ${v} ]]; then
