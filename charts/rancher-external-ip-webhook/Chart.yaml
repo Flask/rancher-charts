@@ -11,14 +11,14 @@ description: |
   Deploy the external-ip-webhook to mitigate k8s CVE-2020-8554
 home: https://github.com/rancher/externalip-webhook
 keywords:
-- cve
-- externalip
-- webhook
-- security
+  - cve
+  - externalip
+  - webhook
+  - security
 maintainers:
-- email: raul@rancher.com
-  name: rawmind0
+  - email: raul@rancher.com
+    name: rawmind0
 name: rancher-external-ip-webhook
 sources:
-- https://github.com/rancher/externalip-webhook
+  - https://github.com/rancher/externalip-webhook
 version: 0.1.600

@@ -5,3 +5,4 @@ name: rancher-kiali-server-crd
 type: application
 annotations:
   catalog.cattle.io/hidden: "true"
+  catalog.cattle.io/os: linux

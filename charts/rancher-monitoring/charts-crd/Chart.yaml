@@ -1,5 +1,5 @@
 apiVersion: v1
-version: 9.4.203
+version: 9.4.202
 description: Installs the CRDs for rancher-monitoring.
 name: rancher-monitoring-crd
 type: application
@@ -8,3 +8,4 @@ annotations:
   catalog.cattle.io/release-name: rancher-monitoring-crd
   catalog.cattle.io/certified: rancher
   catalog.cattle.io/namespace: cattle-monitoring-system
+  catalog.cattle.io/os: linux

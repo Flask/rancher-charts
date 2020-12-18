@@ -8,3 +8,4 @@ annotations:
   catalog.cattle.io/release-name: rancher-cis-benchmark-crd
   catalog.cattle.io/certified: rancher
   catalog.cattle.io/namespace: cis-operator-system
+  catalog.cattle.io/os: linux

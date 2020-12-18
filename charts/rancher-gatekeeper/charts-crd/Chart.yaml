@@ -9,3 +9,4 @@ annotations:
   catalog.cattle.io/certified: rancher
   catalog.cattle.io/experimental: true
   catalog.cattle.io/namespace: cattle-gatekeeper-system
+  catalog.cattle.io/os: linux

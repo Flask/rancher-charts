@@ -15,12 +15,6 @@ spec:
       labels:
         app: {{ .Chart.Name }}
     spec:
-      nodeSelector:
-        kubernetes.io/os: linux
-      tolerations:
-        - key: cattle.io/os
-          value: linux
-          effect: "NoSchedule"
       serviceAccountName: {{ .Chart.Name }}-manager
       securityContext:
         runAsNonRoot: true
@@ -61,12 +55,6 @@ spec:
       labels:
         app: {{ .Chart.Name }}
     spec:
-      nodeSelector:
-        kubernetes.io/os: linux
-      tolerations:
-        - key: cattle.io/os
-          value: linux
-          effect: "NoSchedule"
       serviceAccountName: {{ .Chart.Name }}-manager
       securityContext:
         runAsNonRoot: true

@@ -8,3 +8,4 @@ annotations:
   catalog.cattle.io/release-name: rancher-backup-crd
   catalog.cattle.io/certified: rancher
   catalog.cattle.io/namespace: cattle-resources-system
+  catalog.cattle.io/os: linux
